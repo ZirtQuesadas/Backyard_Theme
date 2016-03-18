@@ -1,0 +1,70 @@
+
+/* HEADER*/
+li{
+	list-style: none;
+	display: inline-block;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 10px;
+	text-transform: capitalize;
+	font-size: 20px;
+	color: gray;
+}
+li:hover{
+	background-color: gray;
+	color: white;
+}
+/* /HEADER*/
+
+@media (min-width: 457px) and (max-width: 555px) {
+ .container { width: 435px}
+}
+.bg-header-image{
+    background-image: url ("Problema/images/header-img.jpg");
+    width: 100%;
+    height: 300px;
+    z-index: 100; /*PINCHE IMAGEN, NUNCA JALÓ!!!!!! */
+
+    -webkit-filter:  brightness(70%); /*PERO EL PINCHE FILTRO SÍ JALA Y JODE LOS BOTONES */
+    filter:  brightness(70%);
+    /* Chrome, Safari, Opera */
+}
+.float-top{
+	position: absolute;
+	top: 0;
+	z-index: 100;
+}
+.img-size{
+	width: 500px;	
+}
+.img-size-sm{
+	width: 300px;	
+}
+
+button{
+	border-radius: 30px !important;
+}
+.invert{
+	color: #5bc0de;
+	border: solid 3px #5bc0de;
+	background-color: #fff;
+}
+div.RRSS{
+	width: 40px;
+	height: 40px;
+	border-radius: 30px;
+	border: solid 2px #5bc0de;
+	display: inline-block;
+	position: relative;
+}
+ i{
+	width: 30px;
+	height: 30px;
+	color: #5bc0de;
+	position: relative;
+	top: 20%;
+
+}
+footer{
+	text-align: center;
+}
